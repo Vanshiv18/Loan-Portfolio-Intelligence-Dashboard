@@ -1,0 +1,14 @@
+{
+  "name": "Loan Portfolio Night Intelligence",
+  "dataColors": [
+    "#4FD1C5",
+    "#6EA8FE",
+    "#A78BFA",
+    "#F6C85F",
+    "#F78FB3",
+    "#94A3B8"
+  ],
+  "background": "#080D18",
+  "foreground": "#E8EEF8",
+  "tableAccent": "#4FD1C5"
+}
