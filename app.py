@@ -40,10 +40,11 @@ button[kind="secondary"] { border-radius: 10px; }
 @st.cache_data
 def load_data():
     candidates = [
-        Path("data/final_loan_portfolio.csv"),
-        Path("/content/final_loan_portfolio.csv"),
-        Path("/mnt/data/final_loan_portfolio.csv")
-    ]
+    Path("final_loan_portfolio.csv"),
+    Path("data/final_loan_portfolio.csv"),
+    Path("/content/final_loan_portfolio.csv"),
+    Path("/mnt/data/final_loan_portfolio.csv")
+]
     for p in candidates:
         if p.exists():
             df = pd.read_csv(p)
